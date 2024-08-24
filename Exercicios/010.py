@@ -1,0 +1,5 @@
+n1=float(input('Digite quanto dinheiro em R$ você tem na carteira: '))
+dolar=float(5.48)
+euro=float(6.04)
+print(f'Você pode comprar {n1/dolar:.2f}US$ na cotação de {dolar}')
+print(f'Você pode comprar {n1/euro:.2f}EUR na cotação de {euro}') 
